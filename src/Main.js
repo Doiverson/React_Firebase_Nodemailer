@@ -19,9 +19,9 @@ const Main = () => {
 
     const onClick = () => {
         sendEmail({
-            name: "Shosuke DOI",
-            email: "sho@olive.app",
-            message: "hello world"
+            name: "anonymous",
+            email: "abc@gmail.com",
+            message: "Hello World"
         });
     };
 

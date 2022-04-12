@@ -46,7 +46,7 @@ exports.sendEmail = functions.https.onRequest((req, res) => {
         //config the email message
         const mailOptions = {
             from: email,
-            to: `doiverson.canada@gmail.com`,
+            to: `sample@gmail.com`,
             subject: 'New message from the nodemailer-form app',
             text: `${name} says: ${message} from ${email}`,
         };
